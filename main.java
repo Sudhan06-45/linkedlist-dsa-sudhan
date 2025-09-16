@@ -35,6 +35,8 @@ public class main {
         list.del_specific(1);
         list.traverse();
 
+        System.out.println("Search the element");
+        list.search(3);
 
     }
 }

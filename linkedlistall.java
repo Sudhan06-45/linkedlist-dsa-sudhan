@@ -136,5 +136,28 @@ public class linkedlistall {
     }
 
     // Search for an element
-    
+    public void search(int key){
+        if(head == null){
+            System.out.println("List is empty");
+            return; 
+        }
+        if(head.next == null && head.data == key){
+            System.out.println("Element found at position 0");
+            return;
+        }
+
+        Node curr = head;
+        int pos = 0;
+
+        while(curr!= null){
+            if (curr.data == key){
+                System.out.println("Element found at position " + pos);
+                return;
+            } 
+                curr = curr.next;
+                pos++;
+        
+        }
+        System.out.println("Element not found in the list");
+    }
 }
