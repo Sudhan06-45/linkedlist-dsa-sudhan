@@ -161,3 +161,5 @@ public class linkedlistall {
         System.out.println("Element not found in the list");
     }
 }
+
+//hii hello gjgbjk
