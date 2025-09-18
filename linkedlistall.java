@@ -1,5 +1,5 @@
 package SLL;
-
+//changes
 public class linkedlistall {
     
     public Node head;
